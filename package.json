@@ -31,7 +31,7 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/RunNodeWithCredentialsX/RunNodeWithCredentialsInnoways.node.js"
+      "dist/nodes/RunNodeWithCredentialsInnoways/RunNodeWithCredentialsInnoways.node.js"
     ]
   },
   "devDependencies": {
