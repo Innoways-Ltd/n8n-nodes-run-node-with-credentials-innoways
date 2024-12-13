@@ -1,6 +1,10 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
 
+** 修改 credentials ID 为字符串 **
+
+
+
 # n8n-nodes-run-node-with-credentials-x
 
 The node allows you to dynamically set the credentials to be used for a specific node you want to run.
