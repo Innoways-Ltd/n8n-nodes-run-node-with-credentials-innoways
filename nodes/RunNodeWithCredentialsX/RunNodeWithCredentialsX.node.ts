@@ -12,15 +12,15 @@ import subWorkflowTemplate from "./subWorkflowTemplate.json";
 
 export class RunNodeWithCredentialsX implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Run Node With Credentials X',
-		name: 'runNodeWithCredentialsX',
+		displayName: 'Run Node With Credentials Innoways',
+		name: 'runNodeWithCredentialsInnoways',
 		group: ['transform'],
 		version: 1,
 		icon: 'file:RunKeys.svg',
 		subtitle: '={{"CredentialId: " + $parameter["credentialsId"]}}',
 		description: 'Run any node with specified credentials',
 		defaults: {
-			name: 'Run Node WIth Credentials X',
+			name: 'Run Node WIth Credentials Innoways',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
