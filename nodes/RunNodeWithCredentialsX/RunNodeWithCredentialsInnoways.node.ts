@@ -20,7 +20,7 @@ export class RunNodeWithCredentialsInnoways implements INodeType {
 		subtitle: '={{"CredentialId: " + $parameter["credentialsId"]}}',
 		description: 'Run any node with specified credentials',
 		defaults: {
-			name: 'Run Node WIth Credentials X',
+			name: 'Run Node WIth Credentials Innoways',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
