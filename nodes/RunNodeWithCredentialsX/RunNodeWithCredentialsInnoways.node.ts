@@ -10,7 +10,7 @@ import {
 
 import subWorkflowTemplate from "./subWorkflowTemplate.json";
 
-export class RunNodeWithCredentialsX implements INodeType {
+export class RunNodeWithCredentialsInnoways implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Run Node With Credentials Innoways',
 		name: 'runNodeWithCredentialsInnoways',
@@ -20,7 +20,7 @@ export class RunNodeWithCredentialsX implements INodeType {
 		subtitle: '={{"CredentialId: " + $parameter["credentialsId"]}}',
 		description: 'Run any node with specified credentials',
 		defaults: {
-			name: 'Run Node WIth Credentials Innoways',
+			name: 'Run Node WIth Credentials X',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
