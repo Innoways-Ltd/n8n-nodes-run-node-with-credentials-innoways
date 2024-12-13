@@ -28,8 +28,8 @@ export class RunNodeWithCredentialsX implements INodeType {
 			{
 				displayName: 'Credentials ID',
 				name: 'credentialsId',
-				type: 'number',
-				default: 0,
+				type: 'string',
+				default: '',
 				required: true,
 				description: 'ID of the credentials to use',
 			},
@@ -50,7 +50,7 @@ export class RunNodeWithCredentialsX implements INodeType {
 			try {
 				const workflowInfo: IExecuteWorkflowInfo = {};
 				const nodeJson = this.getNodeParameter('nodeJson', 0, '') as string;
-				const credentialsId = this.getNodeParameter('credentialsId', 0, 0) as number;
+				const credentialsId = this.getNodeParameter('credentialsId', 0, '') as string;
 				let nodeParsed;
 				try{
 					nodeParsed = JSON.parse(nodeJson);
@@ -63,7 +63,7 @@ export class RunNodeWithCredentialsX implements INodeType {
 
 					if(nodeParsed.credentials){
 						const credentialsName = Object.keys(nodeParsed.credentials)[0];
-						nodeParsed.credentials[credentialsName].id = credentialsId.toString();
+						nodeParsed.credentials[credentialsName].id = credentialsId;
 						nodeParsed.position =[
 							1000,
 							340

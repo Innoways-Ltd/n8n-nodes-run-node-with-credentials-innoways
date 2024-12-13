@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-run-node-with-credentials-x",
-  "version": "0.2.1",
+  "name": "n8n-nodes-run-node-with-credentials-innoways",
+  "version": "1.0",
   "description": "Node to run any node with specified credentials ID.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/bramkn/n8n-nodes-run-node-with-credentials.git",
+  "homepage": "https://github.com/Innoways-Ltd/n8n-nodes-run-node-with-credentials-innoways",
   "author": {
     "name": "Bram Knuever",
     "email": "bram@knitco.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bramkn/n8n-nodes-run-node-with-credentials.git"
+    "url": "https://github.com/Innoways-Ltd/n8n-nodes-run-node-with-credentials-innoways.git"
   },
   "main": "index.js",
   "scripts": {
